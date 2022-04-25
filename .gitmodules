@@ -1,0 +1,9 @@
+[submodule "themes/fuji"]
+	path = themes/fuji
+	url = https://github.com/dsrkafuu/hugo-theme-fuji
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/Mitrichius/hugo-theme-anubis
+[submodule "themes/minima"]
+	path = themes/minima
+	url = https://github.com/Mivinci/hugo-theme-minima
