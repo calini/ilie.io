@@ -1,5 +1,12 @@
 # ilie.io
 
+## TODO
+
+- [X] Hugo
+- [X] Dark mode theme
+- [ ] Custom theme
+- [ ] Analytics
+- [ ] Start posting 
 ## Creation
 
 This was created with Hugo by running:
