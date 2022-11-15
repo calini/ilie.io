@@ -1,4 +1,4 @@
----
+#---
 layout: goimport
 permalink: /go/spongebob
 
@@ -7,4 +7,4 @@ vcs: "git"
 source: "https://github.com/calini/spongebob"
 
 redirect: "https://github.com/calini/spongebob"
----
+#---
