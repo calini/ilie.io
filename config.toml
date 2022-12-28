@@ -2,3 +2,73 @@ baseURL = 'https://ilie.io/'
 languageCode = 'en-gb'
 title = 'ilie.io'
 theme = "anubis"
+
+# Required by Anubis
+
+paginate = 10
+disqusShortname = "calinnilie"
+googleAnalytics = "UA-136110174-1"
+enableRobotsTXT = true
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+title = "Archive"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about"
+weight = 0
+
+[params]
+author = "Calin Ilie"
+email = "calin@ilie.io"
+avatar = "/images/me.png"
+description = "Calin's blog"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto" # TODO pick one (auto|dark|light[-without-switcher])
+readMore = true
+readNextPosts = 5
+disableSummary = false
+copyCodeButton = true
+rssAsSocialIcon = true
+utterancesRepo = ""
+utterancesTheme = ""
+utterancesIssue = ""
+utterancesLabel = ""
+graphcommentId = ""
+
+[params.isso]
+enabled = true
+data = "https://comments.example.com/"
+jsLocation = "https://comments.example.com/js/embed.min.js"
+css = true
+lang = "de"
+replyToSelf = true
+requireAuthor = true
+requireEmail = true
+id = "thread-id"
+avatar = true
+avatar-bg = "#f0f0f0"
+feed = false
+
+[params.webmentions]
+url = "https://ilie.io/webemntions/receive"
+login = "hugo-theme-anubis"
+pingback = true
+
+[[params.social]]
+id = "github"
+name = "calini"
+
+[[params.social]]
+id = "twitter"
+name = "calinnilie"
+
+[markup.goldmark.renderer]
+unsafe = true
