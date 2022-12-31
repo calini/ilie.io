@@ -10,19 +10,6 @@ disqusShortname = "calinnilie"
 googleAnalytics = "UA-136110174-1"
 enableRobotsTXT = true
 
-[[menu.main]]
-identifier = "archive"
-name = "Archive"
-title = "Archive"
-url = "/posts/"
-weight = 1
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-title = "About"
-url = "/about"
-weight = 0
 
 [params]
 author = "Calin Ilie"
@@ -62,13 +49,39 @@ url = "https://ilie.io/webemntions/receive"
 login = "hugo-theme-anubis"
 pingback = true
 
-[[params.social]]
-id = "github"
-name = "calini"
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/posts/about/"
+weight = 0
 
 [[params.social]]
 id = "twitter"
 name = "calinnilie"
 
-[markup.goldmark.renderer]
-unsafe = true
+[[params.social]]
+id = "github"
+name = "calini"
+
+[[params.social]]
+id = "printables"
+url = "https://www.printables.com/social/68936-calini/models"
+
+[[params.social]]
+id = "email"
+name = "calin@ilie.io"
+
+[[params.social]]
+id = "gpg"
+url = "/keys/Calin Ilie - (calin@ilie.io).asc"
