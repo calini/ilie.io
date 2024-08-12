@@ -3,14 +3,6 @@ languageCode = 'en-gb'
 title = 'ilie.io'
 theme = "anubis"
 
-# Required by Anubis
-
-paginate = 10
-disqusShortname = "calinnilie"
-googleAnalytics = "UA-136110174-1"
-enableRobotsTXT = true
-
-
 [params]
 author = "Calin Ilie"
 email = "calin@ilie.io"
@@ -85,3 +77,12 @@ name = "calin@ilie.io"
 [[params.social]]
 id = "gpg"
 url = "/keys/Calin Ilie - (calin@ilie.io).asc"
+
+
+# Required by Anubis
+paginate = 10
+enableRobotsTXT = true
+
+[config.services]
+googleanalytics.id = "UA-136110174-1"
+disqus.shortname = "calinnilie"
