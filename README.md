@@ -31,8 +31,28 @@ then, modify `theme` under `/config.toml`.
 hugo new posts/<post>.md
 ```
 
-## Running the server
+## Running the server locally
 
 ```
 hugo server -D
+```
+
+## Building the website
+```
+hugo
+```
+
+## Get [Hugo](https://github.com/gohugoio/hugo)
+```
+go install github.com/gohugoio/hugo@latest
+```
+
+## Pull themes locally
+```
+git submodule update --init --recursive
+```
+
+## Update themes to their last version
+```
+git submodule update --remote --merge
 ```
